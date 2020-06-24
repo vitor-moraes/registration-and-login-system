@@ -1,0 +1,30 @@
+/* -> Basic Styles */
+.height-100vh {
+  height: 100vh;
+}
+.root {
+  background-color: #088660;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.vertical-line {
+  display: flex;
+  width: 1px;
+  height: 300px;
+  border: 1px #bbb solid;
+  margin: 30px 10px;
+}
+.centralize-card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+/* ----- */
+/* -> Login Styles */
+
+/* LoginLogo */
+
+/* LoginForm */
