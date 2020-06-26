@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 
 export default function LoginForm() {
+  // Hook's States
   const [email, setEmail] = useState(null);
   const [password, setPassword] = useState(null);
+
+  // Submit button function
+  const handleSubmit = async (e) => {};
 
   return (
     <>
       <div className="container text-left">
         <form method="POST">
-          <div className="form-group">
+          <div className="form-group mt-4">
             {/* Login Line */}
             <div className="mt-3">
               <label htmlFor="login">E-mail:</label>
@@ -40,7 +44,22 @@ export default function LoginForm() {
               ></input>
             </div>
             {/* Button Line */}
-            <div className="mt-3"></div>
+            <div className="mt-3 text-center">
+              <button
+                type="submit"
+                onClick={handleSubmit}
+                className="basic-btn"
+              >
+                Entrar
+              </button>
+              {/* Registration Line */}
+              <div className="mt-3">
+                <p>Você ainda não possui cadastro?</p>
+                <a className="register-link" href="/cadastro">
+                  Cadastre-se aqui.
+                </a>
+              </div>
+            </div>
           </div>
         </form>
       </div>

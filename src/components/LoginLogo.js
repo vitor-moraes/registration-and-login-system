@@ -3,9 +3,15 @@ import React from "react";
 export default function LoginLogo() {
   return (
     <>
-      <div>
-        <h1>Nome da Empresa</h1>
-        <p>Mensagem de boas vindas e faça login ao lado</p>
+      <div className="container mt-4">
+        <div>
+          <img src="/images/Main_Logo.png" className="main-logo" />
+          <h1>4-Wall</h1>
+          <p>
+            Faça parte da nossa comunidade, inserindo as suas informações ao
+            lado!
+          </p>
+        </div>
       </div>
     </>
   );

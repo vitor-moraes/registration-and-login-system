@@ -9,7 +9,7 @@ export default function Homepage() {
       <div className="container mt-5">
         <div className="card col-10 centralize-card">
           <div className="row">
-            <div className="col-5 text-center">
+            <div className="col-6 text-center">
               <LoginLogo />
             </div>
             <div className="vertical-line" />

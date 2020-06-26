@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .root {
-  background-color: #088660;
+  background-color: #333333;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -18,13 +18,33 @@
   margin: 30px 10px;
 }
 .centralize-card {
+  background-color: #33;
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
+}
+.basic-btn {
+  margin: 10px;
+  border: 1px solid #333333;
+  border-radius: 7px;
+  background-color: #e8e7da;
+  color: #333333;
+  width: 100px;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+.basic-btn:hover {
+  background-color: #e8e7da;
+  box-shadow: 3px 3px #333333;
 }
 /* ----- */
 /* -> Login Styles */
 
 /* LoginLogo */
-
+.main-logo {
+  width: 100px;
+}
 /* LoginForm */
+.register-link {
+  color: #333333;
+}
