@@ -6,7 +6,13 @@ export default function LoginForm() {
   const [password, setPassword] = useState(null);
 
   // Submit button function
-  const handleSubmit = async (e) => {};
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <>
