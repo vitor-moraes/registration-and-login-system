@@ -1,5 +1,7 @@
+// Imports
 import React, { useState } from "react";
 
+// Exports
 export default function LoginForm() {
   // Hook's States
   const [email, setEmail] = useState(null);
@@ -14,12 +16,13 @@ export default function LoginForm() {
     }
   };
 
+  // Return
   return (
     <>
       <div className="container text-left">
         <form method="POST">
           <div className="form-group mt-4">
-            {/* Login Line */}
+            {/* Login's Line */}
             <div className="mt-3">
               <label htmlFor="login">E-mail:</label>
               <input
@@ -34,7 +37,7 @@ export default function LoginForm() {
                 }}
               ></input>
             </div>
-            {/* Password Line */}
+            {/* Password's Line */}
             <div className="mt-3">
               <label htmlFor="password">Senha:</label>
               <input
@@ -49,7 +52,7 @@ export default function LoginForm() {
                 }}
               ></input>
             </div>
-            {/* Button Line */}
+            {/* Button's Line */}
             <div className="mt-3 text-center">
               <button
                 type="submit"
@@ -58,7 +61,7 @@ export default function LoginForm() {
               >
                 Entrar
               </button>
-              {/* Registration Line */}
+              {/* Registration's Line */}
               <div className="mt-3">
                 <p>Você ainda não possui cadastro?</p>
                 <a className="register-link" href="/cadastro">
