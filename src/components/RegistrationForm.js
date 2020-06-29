@@ -13,7 +13,7 @@ export default function RegistrationForm() {
   const [file, setFile] = useState(null);
   const data = new FormData(); // Always need when uses files requests
 
-  //
+  // Registration form function
   const handleSubmit = async (e) => {
     e.preventDefault();
     data.append("name", name);

@@ -12,11 +12,12 @@ export default function Registrationpage() {
         <div className="card">
           <div className="row">
             {/*  */}
-            <div className="col-6">
+            <div className="col-5">
               <RegistrationLogo />
             </div>
+            <div className="vertical-line" />
             {/*  */}
-            <div className="col-6">
+            <div className="col-5">
               <RegistrationForm />
             </div>
           </div>
