@@ -4,7 +4,7 @@ import LoginForm from "../components/LoginForm";
 import LoginLogo from "../components/LoginLogo";
 
 // Exports
-export default function Loginpage() {
+export default function LoginPage() {
   return (
     <>
       <div className="container mt-5">

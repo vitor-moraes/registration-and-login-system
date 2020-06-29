@@ -4,7 +4,7 @@ import RegistrationLogo from "../components/RegistrationLogo";
 import RegistrationForm from "../components/RegistrationForm";
 
 // Exports
-export default function Registrationpage() {
+export default function RegistrationPage() {
   // Return
   return (
     <>

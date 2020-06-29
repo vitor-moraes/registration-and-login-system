@@ -1,7 +1,10 @@
 // Imports
 import React, { useEffect } from "react";
-import Loginpage from "./Loginpage";
-import Registrationpage from "./Registrationpage";
+
+// Tests
+import LoginPage from "./LoginPage";
+import RegistrationPage from "./RegistrationPage";
+import StandardUserPage from "./StandardUserPage";
 
 // Exports
 export default function Homepage() {
@@ -15,7 +18,7 @@ export default function Homepage() {
   //
   return (
     <>
-      <Registrationpage />
+      <StandardUserPage />
     </>
   );
 }

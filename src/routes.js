@@ -1,12 +1,17 @@
-import React from 'react'
+// Imports
+import React from "react";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { isAuthenticated } from "./services/auth";
 
-import Homepage from "./pages/Homepage"
+// Import: Pages
+import HomePage from "./pages/HomePage";
+import RegistrationPage from "./pages/RegistrationPage";
 
-
+// Exports
 export default function routes() {
-    return (
-        <div>
-            <Homepage />
-        </div>
-    )
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
